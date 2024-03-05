@@ -16,5 +16,5 @@ sources:
         tests:
           - unique:
               column_name: product_id
-      - name: int_stock sales
+      - name: int_stock_sales
         description: its a cominatond
