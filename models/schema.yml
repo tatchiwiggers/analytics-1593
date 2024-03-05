@@ -11,4 +11,10 @@ sources:
         tests: 
           - unique:
               column_name: "(product_id || '-' || date_date)"
-              
+      - name: stg_raw_circle_data__raw_cc_stocks
+        description: cleaning eraw stock
+        tests:
+          - unique:
+              column_name: product_id
+      - name: int_stock sales
+        description: its a cominatond
